@@ -34,9 +34,9 @@ A sleek and responsive landing page built with React, Tailwind CSS, and Framer M
 ### Installation
 1. Clone the repository
 ```bash
-git clone https://github.com/mdalmamunit427/modern-business-landing-page-react-tailwindcss
+git clone https://github.com/heyvishusri/modern-react-project
 
-cd modern-business-landing-page-react-tailwindcss
+cd modern-react-project
 ```
 
 
