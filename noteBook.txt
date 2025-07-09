@@ -1,1 +1,12 @@
-rafce: for short cut of create function component
+Date: 09 July 2025
+Work: NavBar Component
+
+- Created a responsive navigation bar using React and Tailwind CSS.
+- Implemented mobile menu toggle using useState (HiMenu and HiX icons).
+- Used map() to render dynamic nav links with active link tracking.
+- Styled nav links with underline animation on hover using pseudo-elements.
+- Made desktop nav and mobile nav responsive using hidden and md:block classes.
+- Added 'Get in touch' button with hover effects.
+- Fixed styling bugs: corrected `after:button-0` to `after:bottom-0`.
+
+
