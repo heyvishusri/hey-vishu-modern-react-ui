@@ -10,3 +10,25 @@ Work: NavBar Component
 - Fixed styling bugs: corrected `after:button-0` to `after:bottom-0`.
 
 
+## Date: 10 July 2025
+
+### Work Summary - Hero Section Component
+
+Today, I developed the Hero section for the Modern Business Landing Page using React and Tailwind CSS.
+
+### ✅ Completed Tasks:
+
+* Built a responsive Hero layout with two columns (text + image).
+* Designed a star badge using Tailwind hover and group classes.
+* Created a headline with animated underline and pulse emoji.
+* Added a description paragraph with controlled max width.
+* Implemented a functional email input box with focus styles.
+* Designed a CTA button with hover color and shadow.
+* Displayed a hero image with hover scale animation.
+### 📁 Related File:
+
+* `Hero.jsx`
+
+
+
+
