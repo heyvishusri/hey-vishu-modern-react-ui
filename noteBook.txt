@@ -31,4 +31,65 @@ Today, I developed the Hero section for the Modern Business Landing Page using R
 
 
 
+Date: 10 July 2025
+
+Work Summary - CompanyLogo Section Component
+
+Today, I created the CompanyLogo section for the Modern Business Landing Page using React and Tailwind CSS.
+
+✅ Completed Tasks:
+
+Imported company logos from assets folder.
+
+Built a horizontally scrolling animated logo banner using animate-marquee.
+
+Displayed logos in grayscale and faded by default, transitioning to full color and opacity on hover.
+
+Added a left-side text panel with branding message and styling.
+
+Applied responsive styles using flex, sm:flex-row, gap-8, and Tailwind spacing utilities.
+
+Used map() twice to duplicate logos and enable infinite scroll illusion.
+
+🔧 Technologies Used:
+
+React.js
+
+Tailwind CSS
+
+Custom CSS (for marquee animation)
+
+📁 Related File:
+
+CompanyLogo.jsx
+
+App.css (for custom animation)
+
+Date: 11 July 2025
+
+Work Summary - PurposeSection Component
+
+Today, I created the PurposeSection component for the Modern Business Landing Page using React and Tailwind CSS.
+
+✅ Completed Tasks:
+
+Defined a features array with title, description, and icon.
+
+Rendered section layout using a 3-column grid (md:grid-cols-3).
+
+Created a heading section on the left column with subheading and title.
+
+Rendered bullet-point style features with icons and descriptions.
+
+Applied spacing, color, and responsive utilities using Tailwind.
+
+Used .map() with key to dynamically generate feature boxes.
+
+📁 Related File:
+
+PurposeSection.jsx
+
+
+
+
 
