@@ -3,7 +3,10 @@ import heroImage from "../assets/hero-image.png";
 
 const Hero = () => {
   return (
-    <section className="container flex flex-col items-center justify-between px-4 pb-6 mx-auto md:flex-row pt-44">
+    <section
+      id="home"
+      className="container flex flex-col items-center justify-between px-4 pb-6 mx-auto md:flex-row pt-44"
+    >
       {/* left col */}
       <div className="w-full space-y-8 md:w-1/2">
         {/* star badge */}

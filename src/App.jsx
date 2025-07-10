@@ -1,6 +1,7 @@
 import React from "react";
 import NavBar from "./components/NavBar";
 import Hero from "./components/Hero";
+import CompanyLogo from "./components/CompanyLogo";
 
 function App() {
   return (
@@ -9,6 +10,7 @@ function App() {
       <div className="overflow-hidden">
         <NavBar />
         <Hero />
+        <CompanyLogo />
       </div>
     </main>
   );
