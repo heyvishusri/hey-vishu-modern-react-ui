@@ -125,3 +125,69 @@ Tailwind CSS
 📁 Related File:
 
 FeaturesSection.jsx
+
+
+
+
+
+Work Summary - ScheduleSection Component
+
+Today, I created the ScheduleSection component for the Modern Business Landing Page using React, Tailwind CSS, and React Icons.
+
+✅ Completed Tasks:
+
+Designed a two-column layout with image and content using flex and responsive utilities.
+
+Used local image stats.webp for the left section.
+
+Structured text content with section label, title, paragraph, and CTA link.
+
+Added an arrow icon (MdArrowRightAlt) using react-icons.
+
+Applied hover effects on CTA to animate spacing (hover:gap-4).
+
+🔧 Technologies Used:
+
+React.js
+
+Tailwind CSS
+
+React Icons
+
+📁 Related File:
+
+ScheduleSection.jsx
+
+
+
+
+
+
+Work Summary - MonitorSection Component
+
+Today, I created the MonitorSection component for the Modern Business Landing Page using React, Tailwind CSS, and React Icons.
+
+✅ Completed Tasks:
+
+Designed a responsive two-column layout using flex with text and image sections.
+
+Placed content on the left: section label, heading, paragraph, and CTA link.
+
+Used MdArrowRightAlt from react-icons for the call-to-action.
+
+Positioned image on the right with proper responsiveness.
+
+Applied Tailwind spacing, typography, and color classes.
+
+🔧 Technologies Used:
+
+React.js
+
+Tailwind CSS
+
+React Icons
+
+📁 Related File:
+
+MonitorSection.jsx
+
