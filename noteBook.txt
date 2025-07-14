@@ -191,3 +191,64 @@ React Icons
 
 MonitorSection.jsx
 
+
+
+Date: 14 July 2025
+
+Work Summary - PricingSection Component
+
+Today, I created the PricingSection component for the Modern Business Landing Page using React, Tailwind CSS, and React State Hook.
+
+✅ Completed Tasks:
+
+Created two pricing plans: Starter and Business.
+
+Used useState to manage dynamic pricing based on product count.
+
+Implemented a slider (range input) to update number of products and corresponding prices.
+
+Added responsive layout using Tailwind's grid and spacing utilities.
+
+Styled plans and button with hover and transition effects.
+
+🔧 Technologies Used:
+
+React.js
+
+Tailwind CSS
+
+📁 Related File:
+
+PricingSection.jsx
+
+
+
+Date: 14 July 2025
+
+Work Summary - ServicesSection Component
+
+Today, I developed the ServicesSection for the Modern Business Landing Page using React, Tailwind CSS, and React Icons.
+
+✅ Completed Tasks:
+
+Defined a services array with icons, titles, descriptions, and links.
+
+Rendered a grid of cards dynamically using .map().
+
+Styled each card with Tailwind for hover effects and layout.
+
+Added introductory text section with features and CTA button.
+
+Ensured responsiveness using md:flex-row, grid-cols-2, and spacing classes.
+
+🔧 Technologies Used:
+
+React.js
+
+Tailwind CSS
+
+React Icons
+
+📁 Related File:
+
+ServicesSection.jsx
