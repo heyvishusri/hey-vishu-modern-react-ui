@@ -1,6 +1,8 @@
 import React from "react";
+import { motion } from "framer-motion";
 import { useState } from "react";
 import { HiMenu, HiX } from "react-icons/hi";
+import { fadeIn } from "../utils/motion";
 
 function NavBar() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -14,7 +16,13 @@ function NavBar() {
   ];
 
   return (
-    <nav className="fixed top-0 right-0 left-0 bg-white/90 backdrop-blur-sm z-50 border-b border-grey-100 shadow-sm">
+    <motion.nav
+      variants={fadeIn("down", 0.2)}
+      initial="hidden"
+      whileInView="show"
+      viewport={{ once: true }}
+      className="fixed top-0 left-0 right-0 z-50 border-b shadow-sm bg-white/90 backdrop-blur-sm border-grey-100"
+    >
       <div class="w-full container mx-auto flex items-center justify-between px-4 sm:px-6 lg:px-8 md:h-20 h-16">
         {/* logo sec */}
         <div class="flex items-center gap-1 cursor-pointer">
@@ -25,7 +33,7 @@ function NavBar() {
         {/* mobile menu bottom*/}
         <button
           onClick={() => setIsMenuOpen(!isMenuOpen)}
-          className="md:hidden p-2"
+          className="p-2 md:hidden"
         >
           {isMenuOpen ? (
             <HiX className="size-6" />
@@ -35,7 +43,7 @@ function NavBar() {
         </button>
 
         {/* destop nav-item */}
-        <div className="hidden md:flex items-center gap-10">
+        <div className="items-center hidden gap-10 md:flex">
           {navLinks.map((link, index) => (
             <a
               key={index}
@@ -59,8 +67,8 @@ function NavBar() {
       </div>
       {/* mobile menu items */}
       {isMenuOpen && (
-        <div className="md:hidden bg-white border-t border-grey-100 py-4">
-          <div className="container mx-auto px-4 space-y-3">
+        <div className="py-4 bg-white border-t md:hidden border-grey-100">
+          <div className="container px-4 mx-auto space-y-3">
             {navLinks.map((link, index) => (
               <a
                 key={index}
@@ -84,7 +92,7 @@ function NavBar() {
           </div>
         </div>
       )}
-    </nav>
+    </motion.nav>
   );
 }
 

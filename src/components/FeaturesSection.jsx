@@ -1,4 +1,6 @@
 import React from "react";
+import { motion } from "framer-motion";
+import { fadeIn } from "../utils/motion";
 
 const FeaturesSection = () => {
   const features = [
@@ -19,7 +21,13 @@ const FeaturesSection = () => {
     },
   ];
   return (
-    <section className="px-4 py-16 mx-auto max-w-7xl" id="about">
+    <motion.section
+      variants={fadeIn("up", 0.2)}
+      initial="hidden"
+      whileInView="show"
+      className="px-4 py-16 mx-auto max-w-7xl"
+      id="about"
+    >
       {/* heading text */}
       <div className="mb-12 text-center">
         <h2 className="mb-4 text-3xl font-bold">
@@ -59,7 +67,7 @@ const FeaturesSection = () => {
           <div className="absolute top-0 left-0 w-full h-full rounded-full -z-10 bg-blue-600/50 blur-xl"></div>
         </button>
       </div>
-    </section>
+    </motion.section>
   );
 };
 
