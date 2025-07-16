@@ -29,14 +29,19 @@ const FeaturesSection = () => {
       id="about"
     >
       {/* heading text */}
-      <div className="mb-12 text-center">
+      <motion.div
+        variants={fadeIn("down", 0.3)}
+        initial="hidden"
+        whileInView="show"
+        className="mb-12 text-center"
+      >
         <h2 className="mb-4 text-3xl font-bold">
           How can we help your business?
         </h2>
         <p className="text-gray-600 ">
           When you resell besnik, you build trust and increase
         </p>
-      </div>
+      </motion.div>
 
       {/*  features box*/}
       <div className="grid grid-cols-1 gap-8 md:grid-cols-3">
