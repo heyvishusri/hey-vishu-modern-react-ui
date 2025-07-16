@@ -252,3 +252,67 @@ React Icons
 📁 Related File:
 
 ServicesSection.jsx
+
+
+
+
+Date: 16 July 2025
+
+Work Summary - NewsletterSection Component
+
+Today, I built the NewsletterSection component using React, Tailwind CSS, and Framer Motion animations.
+
+✅ Completed Tasks:
+
+Implemented a responsive, animated newsletter section with a clean CTA design.
+
+Used motion.div and variants from framer-motion for staggered entrance animations.
+
+Added email input and CTA button with hover and focus effects.
+
+Included a background gradient using a custom CSS clip-path.
+
+🔧 Technologies Used:
+
+React.js
+
+Tailwind CSS
+
+Framer Motion
+
+React Icons (HiArrowRight)
+
+📁 Related File:
+
+NewsletterSection.jsx
+
+
+Work Summary – Footer Component
+
+Today I completed the Footer component of the Modern React Landing Page using React, Tailwind CSS, and Framer Motion.
+
+✅ Completed Tasks:
+
+Designed a responsive footer layout with brand, navigation links, and social icons.
+
+Implemented hover interactions using framer-motion animations.
+
+Created animated links grouped by category.
+
+Included social media links with hover scale and color transitions.
+
+Displayed current year dynamically for copyright.
+
+🔧 Technologies Used:
+
+React.js
+
+Tailwind CSS
+
+Framer Motion
+
+React Icons
+
+📁 Related File:
+
+Footer.jsx
