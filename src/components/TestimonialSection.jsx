@@ -115,13 +115,18 @@ const TestimonialSection = () => {
                     className="object-cover w-full h-full rounded-full"
                   />
                 </div>
-                <div className="flex justify-center mb-2">
+                <motion.div
+                  variants={fadeIn("down", 0.5)}
+                  initial="hidden"
+                  whileInView="show"
+                  className="flex justify-center mb-2"
+                >
                   {[...Array(5)].map((_, starIndex) => (
                     <span key={starIndex} className="text-yellow-400">
                       ★
                     </span>
                   ))}
-                </div>
+                </motion.div>
                 <h3 className="mb-3 text-xl font-semibold">
                   {testimonial.name}
                 </h3>
