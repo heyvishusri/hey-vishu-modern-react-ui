@@ -11,20 +11,20 @@ import { BsChevronLeft, BsChevronRight } from "react-icons/bs";
 const testimonials = [
   {
     id: 1,
-    name: "Alok Kumar Tiwari",
-    image: "Pi7_Passport_Photo (4).jpeg",
+    name: "Robin Ayala Doe",
+    image: "https://randomuser.me/api/portraits/men/77.jpg",
     text: "Your landing page looks clean, modern, and responsive — great use of design and layout. Love the interactive pricing and smooth animations, just needs a few small tweaks! ✅",
   },
   {
     id: 2,
-    name: "Vikas Kumar",
-    image: "Vikash_pic (1).jpg",
+    name: "John De marli",
+    image: "https://randomuser.me/api/portraits/women/90.jpg",
     text: "This landing page feels premium and well-structured. The CTA sections and service highlights are exactly what our users need.",
   },
   {
     id: 3,
-    name: "Sandeep Kumar Sharma",
-    image: "Pi7_Passport_Photo.jpeg",
+    name: "Rowhan Smith",
+    image: "https://randomuser.me/api/portraits/men/90.jpg",
     text: "Clean design and excellent responsiveness across devices. The pricing slider is a smart touch — very user-friendly!",
   },
   {
