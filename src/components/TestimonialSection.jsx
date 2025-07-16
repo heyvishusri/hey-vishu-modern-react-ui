@@ -3,7 +3,9 @@ import "../App.css";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { motion } from "framer-motion";
 import { fadeIn } from "../utils/motion";
-
+import alok from "../assets/Alok.jpeg";
+import Sandeep from "../assets/Sandeep.jpeg";
+import Vikash from "../assets/Vikash.jpg";
 // Import Swiper styles
 import "swiper/css";
 import "swiper/css/navigation";
@@ -13,20 +15,20 @@ import { BsChevronLeft, BsChevronRight } from "react-icons/bs";
 const testimonials = [
   {
     id: 1,
-    name: "Robin Ayala Doe",
-    image: "https://randomuser.me/api/portraits/men/77.jpg",
+    name: "Alok Kumar Tiwari",
+    image: alok,
     text: "Your landing page looks clean, modern, and responsive — great use of design and layout. Love the interactive pricing and smooth animations, just needs a few small tweaks! ✅",
   },
   {
     id: 2,
-    name: "John De marli",
-    image: "https://randomuser.me/api/portraits/women/90.jpg",
+    name: "Sandeep Kumar",
+    image: Sandeep,
     text: "This landing page feels premium and well-structured. The CTA sections and service highlights are exactly what our users need.",
   },
   {
     id: 3,
-    name: "Rowhan Smith",
-    image: "https://randomuser.me/api/portraits/men/90.jpg",
+    name: "Vikash Kumar",
+    image: Vikash,
     text: "Clean design and excellent responsiveness across devices. The pricing slider is a smart touch — very user-friendly!",
   },
   {
