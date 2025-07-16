@@ -60,21 +60,24 @@ const Footer = () => {
             <motion.div variants={fadeIn("up", 0.7)} className="flex gap-4">
               <motion.a
                 whileHover={{ scale: 1.1 }}
-                href="#"
+                href="https://www.facebook.com/vishwas.vishwaskumar.129"
+                target="_blank"
                 className="flex items-center justify-center w-10 h-10 text-gray-600 transition-colors bg-gray-200 rounded-full hover:bg-blue-600 hover:text-white"
               >
                 <FaFacebookF className="w-5 h-5" />
               </motion.a>
               <motion.a
                 whileHover={{ scale: 1.1 }}
-                href="#"
+                href="https://x.com/sriwastaw51186"
+                target="_blank"
                 className="flex items-center justify-center w-10 h-10 text-gray-600 transition-colors bg-gray-200 rounded-full hover:bg-blue-400 hover:text-white"
               >
                 <FaTwitter className="w-5 h-5" />
               </motion.a>
               <motion.a
                 whileHover={{ scale: 1.1 }}
-                href="#"
+                href="https://www.linkedin.com/in/vishwash-kumar-104661266/"
+                target="_blank"
                 className="flex items-center justify-center w-10 h-10 text-gray-600 transition-colors bg-gray-200 rounded-full hover:bg-blue-700 hover:text-white"
               >
                 <FaLinkedinIn className="w-5 h-5" />

@@ -1,6 +1,8 @@
 import React from "react";
 import "../App.css";
 import { Swiper, SwiperSlide } from "swiper/react";
+import { motion } from "framer-motion";
+import { fadeIn } from "../utils/motion";
 
 // Import Swiper styles
 import "swiper/css";
@@ -49,18 +51,34 @@ const testimonials = [
 
 const TestimonialSection = () => {
   return (
-    <section className="px-4 py-16 mx-auto max-w-7xl" id="testimonials">
-      <div className="mb-12 text-center">
+    <motion.section
+      variants={fadeIn("up", 0.3)}
+      initial="hidden"
+      whileInView="show"
+      className="px-4 py-16 mx-auto max-w-7xl"
+      id="testimonials"
+    >
+      <motion.div
+        variants={fadeIn("down", 0.4)}
+        initial="hidden"
+        whileInView="show"
+        className="mb-12 text-center"
+      >
         <h2 className="mb-4 text-3xl font-bold md:text-4xl">
           What our happy client say
         </h2>
         <p className="text-gray-600">
           Things that make it the best place to start trading
         </p>
-      </div>
+      </motion.div>
       {/* testimonial cards */}
 
-      <div className="relative">
+      <motion.div
+        variants={fadeIn("up", 0.5)}
+        initial="hidden"
+        whileInView="show"
+        className="relative"
+      >
         <Swiper
           navigation={{
             nextEl: ".swiper-button-next-custom",
@@ -120,8 +138,8 @@ const TestimonialSection = () => {
             <BsChevronRight className="size-6" />
           </button>
         </div>
-      </div>
-    </section>
+      </motion.div>
+    </motion.section>
   );
 };
 

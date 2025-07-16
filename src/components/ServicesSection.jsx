@@ -3,6 +3,8 @@ import { BsStack } from "react-icons/bs";
 import { HiLightBulb } from "react-icons/hi";
 import { FiSettings } from "react-icons/fi";
 import { BiTime } from "react-icons/bi";
+import { motion } from "framer-motion";
+import { fadeIn } from "../utils/motion";
 
 const services = [
   {
@@ -33,12 +35,21 @@ const services = [
 
 const ServicesSection = () => {
   return (
-    <section
+    <motion.section
+      variants={fadeIn("up", 0.2)}
+      initial="hidden"
+      whileInView="show"
+      viewport={{ once: true }}
       className="container px-4 py-20 mx-auto sm:px-6 lg:px-8"
       id="services"
     >
       <div className="flex flex-col items-center justify-between gap-12 md:flex-row lg:gap-24">
-        <div className="md:w-1/3">
+        <motion.div
+          variants={fadeIn("right", 0.3)}
+          initial="hidden"
+          whileInView="show"
+          className="md:w-1/3"
+        >
           <h2 className="mb-6 text-3xl font-bold md:text-4xl md:w-4/5">
             Future of support with new shape
           </h2>
@@ -64,9 +75,14 @@ const ServicesSection = () => {
               Get Started
             </button>
           </div>
-        </div>
+        </motion.div>
         {/* services Card */}
-        <div className="grid grid-cols-1 gap-8 md:grid-cols-2">
+        <motion.div
+          variants={fadeIn("left", 0.3)}
+          initial="hidden"
+          whileInView="show"
+          className="grid grid-cols-1 gap-8 md:grid-cols-2"
+        >
           {services.map((service, index) => (
             <div
               key={index}
@@ -83,9 +99,9 @@ const ServicesSection = () => {
               </a>
             </div>
           ))}
-        </div>
+        </motion.div>
       </div>
-    </section>
+    </motion.section>
   );
 };
 
